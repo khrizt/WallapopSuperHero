@@ -25,3 +25,5 @@ The project contains unit tests for 2 classes, one for a data entity and the oth
 ## Functional testing
 
 The project contains 2 functional tests, one goes to the first comic returned by the API and checks that the title contains anything, the second test goes to the second position of the RecyclerView and clicks on the comic to see its information.
+
+To make these tests work the device or emulator must have the animations disabled.

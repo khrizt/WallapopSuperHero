@@ -92,11 +92,11 @@ public class MainPresenter extends BasePresenter implements CapitainAmericaComic
     @Override
     public void loadResults(ArrayList<Comic> results, int totalItems) {
         currentTask = null;
-        comics.addAll(results);
-        this.totalItems = totalItems;
         if (results == null) {
             view.loadErrorView();
         } else {
+            comics.addAll(results);
+            this.totalItems = totalItems;
             view.loadComics(results);
         }
     }
