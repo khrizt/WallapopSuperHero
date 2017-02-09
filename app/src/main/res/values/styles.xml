@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="comicTitle">
+        <item name="android:textSize">@dimen/big_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_marginBottom">@dimen/margin_padding</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:shadowColor">@color/colorShadow</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="comicTitleGrid">
+        <item name="android:textSize">@dimen/normal_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_marginBottom">@dimen/small_margin_padding</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:shadowColor">@color/colorShadow</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="bottomMargin">
+        <item name="android:layout_marginBottom">@dimen/margin_padding</item>
+    </style>
+
+    <style name="upcCode">
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">@dimen/small_font_size</item>
+    </style>
+
+    <style name="pages">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">@dimen/small_font_size</item>
+    </style>
+</resources>

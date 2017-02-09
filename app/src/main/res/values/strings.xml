@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Wallapop Super Hero!</string>
+    <string name="empty_comics">Ha habido un error cargando los comics, inténtalo más tarde</string>
+    <string name="no_title">Stan Lee is still thing about a title</string>
+    <string name="change_view">Change view mode</string>
+</resources>
